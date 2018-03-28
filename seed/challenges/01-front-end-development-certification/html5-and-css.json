@@ -27,59 +27,20 @@
         "assert.isTrue((/hello(\\s)+world/gi).test($('h1').text()), 'message: Element <code>h1</code>harus berisi teks \"Hello World\".');"
       ],
       "type": "waypoint",
-      "titleEs": "Saluda a los Elementos HTML",
-      "descriptionEs": [
-        "¡Bienvenido/a al primer desafío de programación de Free Code Camp!",
-        "Puedes editar tu <code>código</code> en tu <code>editor de texto</code>, que hemos incrustado en esta página web.",
-        "¿Ves el código en tu editor de texto que dice <code>&#60;h1&#62;Hello&#60;/h1&#62;</code>? Ese es un <code>elemento</code> HTML.",
-        "La mayoría de los elementos HTML tienen una <code>etiqueta de apertura</code> y una <code>etiqueta de cierre</code>.",
-        "Las etiquetas de apertura se ven como:",
-        "<code>&#60;h1&#62;</code>",
-        " Las etiquetas de cierre se ven como:",
-        "<code>&#60;/h1&#62;</code>",
-        "Fíjate que la única diferencia entre las etiquetas de apertura y de cierre es que estas últimas tienen un / después de su signo de apertura (<).",
-        "Cada desafío tiene pruebas que puedes ejecutar en cualquier momento presionado el botón \"Run tests\". Una vez logres pasar todas las pruebas, podrás avanzar al siguiente desafío.",
-        "Para pasar la prueba en este desafío, cambia tu texto de la etiqueta <code>h1</code> para que diga \"Hello World\" en lugar de \"Hello\". Entonces presiona el botón \"Ejecutar pruebas\"."
-      ],
-      "titleDe": "Begrüße die HTML Elemente",
       "challengeType": 0
     },
     {
       "id": "bad87fee1348bd9aedf0887a",
-      "descriptionPtBR": [
-        "Durante os próximos desafios, construiremos um aplicativo em HTML que se parecerá como este:",
-        "<a href=\"//i.imgur.com/jOc1JF1.png\" data-lightbox=\"img-enlarge\"><img class=\"img-responsive\" src=\"//i.imgur.com/jOc1JF1.png\" title=\"Clique para aumentar\" alt=\"Imagem do aplicativo CatPhotoApp finalizado\"></a>",
-        "O elemento <code>h2</code> que você criar gerará um elemento <code>h2</code> na página da web.",
-        "Este elemento indica ao navegador a forma de mostrar o texto que contém.",
-        "Os elementos <code>h2</code> são ligeiramente menores que os elementos <code>h1</code>. Há também os elementos <code>h3</code>, <code>h4</code>, <code>h5</code> e <code>h6</code>.",
-        "Adicione uma tag <code>h2</code> que diga \"CatPhotoApp\" para criar um segundo <code>elemento</code> HTML abaixo de seu elemento <code>h1</code> chamado \"Hello World\"."
-      ],
-      "namePtBR": "Cabeçalho com o Elemento h2",
-      "descriptionDe": [
-        "In den nächsten Challenges werden wir eine HTML5 App entwickeln die ungefähr so aussehen wird:",
-        "<a href=\"//i.imgur.com/jOc1JF1.png\" data-lightbox=\"img-enlarge\"><img class=\"img-responsive\" src=\"//i.imgur.com/jOc1JF1.png\" title=\"Klicke zum Vergrößern\" alt=\"Ein Screenshot von unserer beendeted Katzenfoto App\"></a>",
-        "Das eingetragene <code>h2</code> Element wird ein <code>h2</code> Element auf der Website erzeugen.",
-        "Dieses Element sagt dem Browser, wie die Struktur deiner Website aufgebaut ist. <code>h1</code> Elemente werden oft für Hauptüberschriften verwendet, während <code>h2</code> Elemente üblicherweise für Zwischenüberschriften verwendet werden. Es gibt auch <code>h3</code>, <code>h4</code>, <code>h5</code> und <code>h6</code> Elemente die verschiedene und neue Bereiche kennzeichnen.",
-        "Füge unter <code>h1</code> \"Hello World\" ein zweites HTML Element <code>h2</code> hinzu, in dem \"CatPhotoApp\" steht."
-      ],
-      "titleRU": "Заголовок с применением элемента h2",
-      "descriptionRU": [
-        "В результате прохождения нескольких следующих испытаний, мы построим HTML5 приложение, которое будет похоже на это:",
-        "<a href=\"//i.imgur.com/jOc1JF1.png\" data-lightbox=\"img-enlarge\"><img class=\"img-responsive\" src=\"//i.imgur.com/jOc1JF1.png\" title=\"Click to enlarge\" alt=\"A screen shot of our finished Cat Photo App\"></a>",
-        "Вводимый вами элемент <code>h2</code> создаст соответствующий элемент <code>h2</code> на web-странице.",
-        "Этот элемент сообщает браузеру о структуре вашего web-сайта. Элементы <code>h1</code> часто применяют в качестве главных заголовков, в то время как элементы <code>h2</code> обычно используют для обозначения позаголовков. Также существуют элементы <code>h3</code>, <code>h4</code>, <code>h5</code> и <code>h6</code> для обозначения отдельных секций.",
-        "Добавьте метку <code>h2</code> с текстом \"CatPhotoApp\" для создания второго HTML <code>элемента</code> под вашим элементом <code>h1</code> с текстом \"Hello World\"."
-      ],
-      "title": "Headline with the h2 Element",
+      "title": "Baris kepala dengan elemen h2",
       "description": [
-        "Over the next few challenges, we'll build an HTML5 app that will look something like this:",
+        "Lanjut tantangan selanjutnya, kita akan membangun sebuah aplikasi HTML5 bahwa akan terlihat seperti ini:",
         "<a href=\"//i.imgur.com/jOc1JF1.png\" data-lightbox=\"img-enlarge\"><img class=\"img-responsive\" src=\"//i.imgur.com/jOc1JF1.png\" title=\"Click to enlarge\" alt=\"A screen shot of our finished Cat Photo App\"></a>",
-        "The <code>h2</code> element you enter will create an <code>h2</code> element on the website.",
-        "This element tells the browser about the structure of your website. <code>h1</code> elements are often used for main headings, while <code>h2</code> elements are generally used for subheadings. There are also <code>h3</code>, <code>h4</code>, <code>h5</code> and <code>h6</code> elements to indicate different and new sections.",
+        "Itu <code>h2</code> masukkan elemenmu akan membuat sebuah <code>h2</code>Elemen di situs.",
+        "Elemen ini menceritakan sumber peramban tentang struktur situsmu. <code>h1</code> Elemen - elemen sering digunakan untuk kepala utama, sedangkan <code>h2</code> elemen - elemen umumnya digunakan bagian - bagian kepala. Ada juga <code>h3</code>, <code>h4</code>, <code>h5</code> dan <code>h6</code> elemen - elemen terindikasi berbeda dan bagian bagian baru.",
         "Add an <code>h2</code> tag that says \"CatPhotoApp\" to create a second HTML <code>element</code> below your \"Hello World\" <code>h1</code> element."
       ],
       "challengeSeed": [
-        "<h1>Hello World</h1>"
+        "<h1>Halo Dunia</h1>"
       ],
       "tests": [
         "assert(($(\"h2\").length > 0), 'message: Create an <code>h2</code> element.');",
@@ -88,46 +49,17 @@
         "assert.isTrue((/hello(\\s)+world/gi).test($(\"h1\").text()), 'message: Your <code>h1</code> element should have the text \"Hello World\".');"
       ],
       "type": "waypoint",
-      "titleEs": "Encabezado con el elemento h2",
-      "descriptionEs": [
-        "Durante los siguientes desafíos, construiremos una aplicación HTML5 que lucirá como la siguiente:",
-        "<a href=\"//i.imgur.com/jOc1JF1.png\" data-lightbox=\"img-enlarge\"><img class=\"img-responsive\" src=\"//i.imgur.com/jOc1JF1.png\" title=\"Pulsa para agrandar\" alt=\"Pantallazo de la aplicación Cat Photo terminada\"></a>",
-        "El elemento <code>h2</code> que ingreses creará un elemento <code>h2</code> en el sitio web.",
-        "Este elemento le dice al navegador cómo mostrar el texto que contiene.",
-        "Los elementos <code>h2</code> son ligeramente más pequeños que los elementos <code>h1</code>. También hay elementos <code>h3</code>, <code>h4</code>, <code>h5</code> y <code>h6</code>",
-        "Agrega una etiqueta <code>h2</code> que diga \"CatPhotoApp\" para crear un segundo <code>elemento</code> HTML debajo de tu elemento <code>h1</code> \"Hello World\"."
-      ],
       "titleDe": "Überschrift mit dem h2 Element",
       "challengeType": 0
     },
     {
       "id": "bad87fee1348bd9aedf08801",
-      "descriptionPtBR": [
-        "Os elementos <code>p</code> são os preferenciais para criar parágrafos de texto com tamanho normal nas páginas da web. P significa a abreviatura de \"parágrafo\".",
-        "Você pode criar um elemento <code>p</code> assim:",
-        "<code>&#60;p&#62;Sou uma tag p!&#60;/p&#62;</code>",
-        "Crie um elemento <code>p</code> abaixo de seu elemento <code>h2</code>, e dê a ele o texto \"Hello Paragraph\"."
-      ],
-      "namePtBR": "Informe com o Elemento Parágrafo",
-      "descriptionDe": [
-        "<code>p</code> Elemente sind das bevorzugte Element für normale Paragraphentexte auf einer Website. P ist die Abkürzung für \"Paragraph\".",
-        "Du kannst ein <code>p</code> Element so erzeugen:",
-        "<code>&#60;p&#62;Ich bin ein p Element!&#60;/p&#62;</code>",
-        "Erstelle ein <code>p</code> Element unter deinem <code>h2</code> Element und füge den Text \"Hello Paragraph\" ein."
-      ],
-      "titleRU": "Проинформируйте с применением элемента p",
-      "descriptionRU": [
-        "Элементы <code>p</code> предпочтительно использовать для обозначения параграфов с текстом нормального размера в web-сайтах. P - сокращение от \"paragraph\".",
-        "Вы можете создать элемент <code>p</code> следующим образом:",
-        "<code>&#60;p&#62;Я метка p!&#60;/p&#62;</code>",
-        "Создайте элемент <code>p</code> под вашим элементом <code>h2</code> и присвойте ему текст \"Hello Paragraph\"."
-      ],
-      "title": "Inform with the Paragraph Element",
+      "title": "Informasi dengan elemen paragraf",
       "description": [
-        "<code>p</code> elements are the preferred element for normal-sized paragraph text on websites. P is short for \"paragraph\".",
-        "You can create a <code>p</code> element like this:",
+        "<code>p</code> elemen - elemen yang disukai adalah element yang berukuran normal pada teks paragraf di situs. P adalah kependekan\"paragraph\".",
+        "Kamu dapat membuat sebuah <code>p</code> elemen seperti ini:",
         "<code>&#60;p&#62;I'm a p tag!&#60;/p&#62;</code>",
-        "Create a <code>p</code> element below your <code>h2</code> element, and give it the text \"Hello Paragraph\"."
+        "Buat sebuah <code>p</code> elemen dibawahmu <code>h2</code> elemen,dan berikan di teks \"Hello Paragraph\"."
       ],
       "challengeSeed": [
         "<h1>Hello World</h1>",
@@ -139,38 +71,11 @@
         "assert(code.match(/<\\/p>/g) && code.match(/<\\/p>/g).length === code.match(/<p/g).length, 'message: Make sure your <code>p</code> element has a closing tag.');"
       ],
       "type": "waypoint",
-      "titleEs": "Informa con el Elemento Párrafo",
-      "descriptionEs": [
-        "Los elementos <code>p</code> son los elementos preferidos en los sitios web para los párrafos de texto en tamaño normal. La P es abreviatura de \"párrafo\".",
-        "Tú puedes crear un elemento párrafo de esta forma:",
-        "<code>&#60;p&#62;¡Soy una etiqueta p!&#60;/p&#62;</code>",
-        "Crea un elemento <code>p</code> debajo de tu elemento <code>h2</code>, y ponle el texto \"Hello Paragraph\"."
-      ],
       "titleDe": "Informiere mit dem Paragraph Element",
       "challengeType": 0
     },
     {
       "id": "bad87fee1348bd9aedf08802",
-      "descriptionPtBR": [
-        "\"Comentar\" é uma forma de deixar anotações em seu código sem afetá-lo.",
-        "Comentar também é um jeito conveniente de deixar seu código inativo sem precisar apagá-lo por completo.",
-        "Você pode iniciar um comentário com <code>&#60;!--</code> e terminar seu comentário com <code>--&#62;</code>.",
-        "Remova o comentário dos elementos <code>h1</code>, <code>h2</code> e <code>p</code>."
-      ],
-      "namePtBR": "Descomente o HTML",
-      "descriptionDe": [
-        "Kommentieren erlaubt dir Kommentare innerhalb des Codes zu hinterlassen, ohne diesen selbst zu beeinflussen.",
-        "Dies ist auch ein guter Weg, um Code inaktiv zu machen ohne diesen komplett löschen zu müssen.",
-        "Du kannst einen Kommentar mit <code>&#60;!--</code> starten und ihn mit <code>--&#62;</code> wieder beenden.",
-        "Entkommentiere deine <code>h1</code>, <code>h2</code> und <code>p</code> Elemente."
-      ],
-      "titleRU": "Раскомментируйте HTML",
-      "descriptionRU": [
-        "Комментирование - способ хранения заметок по коду без воздействия на сам код.",
-        "Также комментирование - неплохой метод отключения части кода без необходимости его удаления.",
-        "Вы можете начать комментарий с <code>&#60;!--</code> и закончить его <code>--&#62;</code>",
-        "Раскомментируйте свои элементы <code>h1</code>, <code>h2</code> и <code>p</code>."
-      ],
       "title": "Uncomment HTML",
       "description": [
         "Commenting is a way that you can leave comments within your code without affecting the code itself.",
